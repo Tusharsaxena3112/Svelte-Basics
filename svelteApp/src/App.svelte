@@ -1,9 +1,9 @@
 <script>
-	export let name;
+	import Basics from "./1basics.svelte";
 </script>
 
 <main>
-	<h1>Hello {name}!</h1>
+	<Basics/>
 </main>
 
 <style>
