@@ -1,9 +1,11 @@
 <script>
 	import Basics from "./1basics.svelte";
+	import UserInput from "./2userInput.svelte";
 </script>
 
 <main>
-	<Basics/>
+	<!-- <Basics/> -->
+	<UserInput/>
 </main>
 
 <style>
