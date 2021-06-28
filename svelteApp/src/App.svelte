@@ -1,11 +1,13 @@
 <script>
 	import Basics from "./1basics.svelte";
 	import UserInput from "./2userInput.svelte";
+	import Reactivity from "./3Reactivity.svelte";
 </script>
 
 <main>
 	<!-- <Basics/> -->
-	<UserInput/>
+	<!-- <UserInput/> -->
+	<Reactivity/>
 </main>
 
 <style>
