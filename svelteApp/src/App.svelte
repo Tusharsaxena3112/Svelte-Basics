@@ -4,6 +4,7 @@
 	import Reactivity from "./3Reactivity.svelte";
 	import Props from "./4Props.svelte";
 	import Loops from "./5Loops.svelte";
+	import AddItem from "./6AddingData.svelte";
 	const props = {
 		name:"Tushar",
 		age:21,
@@ -17,7 +18,8 @@
 	<!-- <UserInput/> -->
 	<!-- <Reactivity/> -->
 	<!-- <Props {...props}/> -->
-	<Loops/>
+	<!-- <Loops/> -->
+	<AddItem/>
 </main>
 
 <style>
