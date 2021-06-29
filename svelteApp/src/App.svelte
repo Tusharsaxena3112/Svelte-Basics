@@ -5,6 +5,8 @@
 	import Props from "./4Props.svelte";
 	import Loops from "./5Loops.svelte";
 	import AddItem from "./6AddingData.svelte";
+import DeletetingItem from "./DeletetingItem.svelte";
+	import DeleteItem from "./DeletetingItem.svelte";
 	const props = {
 		name:"Tushar",
 		age:21,
@@ -19,7 +21,8 @@
 	<!-- <Reactivity/> -->
 	<!-- <Props {...props}/> -->
 	<!-- <Loops/> -->
-	<AddItem/>
+	<!-- <AddItem/> -->
+	<DeletetingItem/>
 </main>
 
 <style>
