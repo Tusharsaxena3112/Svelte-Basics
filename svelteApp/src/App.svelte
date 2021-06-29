@@ -3,6 +3,7 @@
 	import UserInput from "./2userInput.svelte";
 	import Reactivity from "./3Reactivity.svelte";
 	import Props from "./4Props.svelte";
+	import Loops from "./5Loops.svelte";
 	const props = {
 		name:"Tushar",
 		age:21,
@@ -15,7 +16,8 @@
 	<!-- <Basics/> -->
 	<!-- <UserInput/> -->
 	<!-- <Reactivity/> -->
-	<Props {...props}/>
+	<!-- <Props {...props}/> -->
+	<Loops/>
 </main>
 
 <style>
