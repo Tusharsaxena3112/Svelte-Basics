@@ -1,6 +1,7 @@
 <script>
-  let task;
-  let status;
+  let task="";
+  let status="";
+  let dis = false;
 
   import { createEventDispatcher } from "svelte";
   let dispatch = createEventDispatcher();
@@ -9,9 +10,12 @@
       task,
       status,
     };
-    // console.log(data);
     dispatch("data", data);
   };
+
+  const toggle = () =>{
+      dis = !dis;
+  }
 </script>
 
 <main>
@@ -21,7 +25,10 @@
       <form on:submit|preventDefault={handleSubmit}>
       <input type="text" bind:value={task} placeholder="task"/>
       <input type="text" bind:value={status} placeholder="status"/>
-      <button type="submit">Add!</button>
+      {#if (task.length >0 ) && (status.length > 0)}
+        {toggle()};
+      {/if}
+      <button disabled={!dis} type="submit">Add!</button>
       <form/>
     </div>
   </div>
