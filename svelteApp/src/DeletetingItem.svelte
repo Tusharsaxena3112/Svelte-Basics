@@ -36,7 +36,7 @@
     <input type="text" bind:value={professional} />
     <button on:click={addItem}>Add item</button> -->
     {#if showModel}
-    <Modal on:click={addItem} {showModel}/>
+    <Modal on:click={addItem} showModel bind:name bind:about bind:professional/>
     {/if}
     <button on:click={handleShow}>Enter</button>
     <div class="persons">
