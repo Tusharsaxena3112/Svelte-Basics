@@ -56,9 +56,6 @@
     .persons {
       display: grid;
       grid-template-columns: auto auto auto auto auto;
-      justify-content: center;
-      align-items: center;
-
     }
     .person {
       border: 1px solid white;

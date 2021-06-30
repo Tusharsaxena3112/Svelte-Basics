@@ -30,10 +30,11 @@
         margin:5px;
     }
   main {
-    background-color: rgb(0, 0, 0);
-    width: 100vw;
-    height: 100vh;
+    background-color: rgb(36, 23, 23);
+    width: 99%;
+    height: 99%;
     position: fixed;
     color: white;
+    margin:0;
   }
 </style>
